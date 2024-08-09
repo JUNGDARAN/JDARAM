@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐿️ 다람의 시트 공장 🐿️</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .banner {
+            width: 100%;
+            max-width: 800px; /* 배너 이미지의 최대 너비 */
+            height: auto;
+            border-radius: 10px;
+        }
+        .clickable-image {
+            width: 600px; /* 하단 이미지 크기 */
+            height: auto;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .clickable-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 메인 배너 이미지 (호버 확대 효과 없음) -->
+        <img src="https://cdn.discordapp.com/attachments/1054368152647110668/1271608485058183168/cd25a87dbf92958b.jpg?ex=66b7f530&is=66b6a3b0&hm=9748bd4c8314b11957428ad7eead98a1ceee781670f7d8b48e8b92fa1c197487&" 
+        alt="메인 배너" class="banner">
+    </div>
+
+    <div class="container">
+        <!-- 클릭 가능한 이미지 (호버 확대 효과 있음) -->
+        <a href="https://docs.google.com/spreadsheets/d/13Wy19CEZXRuqr4V1ftiR-t9zfsnXW8Q2txp1NzmoWbY/edit?usp=sharing" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1054368152647110668/1271607866570313830/8131a7cc79017ed9.jpg?ex=66b7f49c&is=66b6a31c&hm=cb9900989b007f9d5eff371f0a33b17ace3bacaadf506a0815e26ebe8d6ac7b1&" 
+            alt="교역소 별 효율 계산기" class="clickable-image">
+        </a>
+    </div>
+</body>
+</html>
